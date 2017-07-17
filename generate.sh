@@ -25,6 +25,7 @@ elif [ $1 = gh-pages -o $1 = coding-pages ]; then
   fi
   cp -r article/images $1/source
   find article/ -name "*.md" -exec cp {} $1/source/_posts \;
+  cp -r source $1
 
   cd $1/
   hexo clean
