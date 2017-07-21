@@ -23,7 +23,9 @@ elif [ $1 = gh-pages -o $1 = coding-pages ]; then
   if [ -d $1/source/images ]; then
     mv $1/source/images $1/source/_images_$(date +%Y%m%d%H%M%S) > /dev/null
   fi
-  cp -r article/images $1/source
+  if [ -d article/images ]; then
+    cp -r article/images $1/source
+  fi
   find article/ -name "*.md" -exec cp {} $1/source/_posts \;
   cp -r source $1
 

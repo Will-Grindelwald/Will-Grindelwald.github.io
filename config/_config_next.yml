@@ -4,7 +4,7 @@
 
 # Put your favicon.ico into `hexo-site/source/` directory.
 # 页面图标
-favicon: /images/favicon.ico
+favicon: /favicon.png
 
 # Set default keywords (Use a comma to separate)
 keywords: "技术, 码农, lyogvce"
@@ -121,7 +121,7 @@ links:
 # Sidebar Avatar 头像
 # in theme directory(source/images): /images/avatar.jpg
 # in site  directory(source/uploads): /uploads/avatar.jpg
-avatar: /images/avatar.png
+avatar: /avatar.svg
 
 # Table Of Contents in the Sidebar # 目录
 toc:
