@@ -1,0 +1,21 @@
+# Header
+menu:
+  项目: /repo
+  简历: /resume
+  博客: /blog
+  # 概览: /overview
+
+# Site favicon
+favicon: /favicon.png
+
+# Site logo
+logo: /avatar.svg
+
+# Enable Mathjax
+mathjax: false
+
+# Enable awesome-toc
+awesome_toc: false
+
+# Enable githubRepoWidget
+github_repo_widget: false
