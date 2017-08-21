@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[Storm-Kafka]]></title>
+    <url>%2Frepo%2FStorm-Kafka.html</url>
+    <content type="text"><![CDATA[deploy/: Storm-Kafka-Zookeeper 部署相关的自动化脚本 docs/部署文档.md: Storm-Kafka-Zookeeper 部署文档 docs/开发文档.md: Storm-Kafka-Zookeeper 开发文档 project/: Storm-Kafka 编程 demo, 项目代码 Read More »]]></content>
+      <categories>
+        <category>项目</category>
+        <category>实时计算</category>
+      </categories>
+      <tags>
+        <tag>实时计算</tag>
+        <tag>Kafka</tag>
+        <tag>Storm</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Spark-Kafka]]></title>
+    <url>%2Frepo%2FSpark-Kafka.html</url>
+    <content type="text"><![CDATA[开发环境部署部署文档 项目代码 ibd/ pseudoSource/ VisServer/ Read More »]]></content>
+      <categories>
+        <category>项目</category>
+        <category>实时计算</category>
+      </categories>
+      <tags>
+        <tag>实时计算</tag>
+        <tag>Spark</tag>
+        <tag>Kafka</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[tianchi-MiddlewareRace-Third]]></title>
+    <url>%2Frepo%2Ftianchi-MiddlewareRace-Third.html</url>
+    <content type="text"><![CDATA[本仓库记录了我于 2017 年 5 月 18 日参加 阿里中间件性能挑战赛 的代码、思考、分享。 原代码是存储在 阿里云 上，不太方便，遂迁移到 Github。同时我还整理了一下提交记录：在原提交记录不变的基础上，我将我们的代码演化分为了 5 个阶段，先 merge 到 dev-0 分支，再 merge 到 master 分支并打上 tag。 Read More »]]></content>
+      <categories>
+        <category>项目</category>
+        <category>竞赛</category>
+        <category>天池</category>
+        <category>中间件</category>
+      </categories>
+      <tags>
+        <tag>竞赛</tag>
+        <tag>中间件</tag>
+        <tag>高性能</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Coursework]]></title>
+    <url>%2Frepo%2FCoursework.html</url>
+    <content type="text"><![CDATA[在国科大学习期间，课程的项目作业 Algorithm_2015_autumn - 算法课 BDMS_2016_spring - 大数据管理系统与数据分析 WDM_2015_autumn - 网络数据挖掘 南加州大学的三个课程作业 - 帮朋友做的 Read More »]]></content>
+      <categories>
+        <category>项目</category>
+        <category>课程设计</category>
+      </categories>
+      <tags>
+        <tag>算法</tag>
+        <tag>课程设计</tag>
+        <tag>大数据</tag>
+        <tag>数据挖掘</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[AimToOffer]]></title>
+    <url>%2Frepo%2FAimToOffer.html</url>
+    <content type="text"><![CDATA[平时刷的一些题 Advanced: 高级算法题(Java 实现) DSAndAlgo: 基本的数据结构与算法(Java 实现) InAction: 招聘笔试题实战(Java 实现) LeetCode: (较早之前刷的 LeetCode，C 实现) SwordToOffer: 剑指 Offer(Java 实现) Read More »]]></content>
+      <categories>
+        <category>项目</category>
+        <category>刷题</category>
+      </categories>
+      <tags>
+        <tag>数据结构</tag>
+        <tag>算法</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Markdown-Guidance]]></title>
+    <url>%2Frepo%2FMarkdown-Guidance.html</url>
+    <content type="text"><![CDATA[本项目核心成果: Markdown 语法示例文件, 参考了以下文档 官方的语法说明(英文) GitHub Guides(关于 GFM) Read More »]]></content>
+      <categories>
+        <category>项目</category>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
+        <tag>Markdown</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[WangDao]]></title>
+    <url>%2Frepo%2FWangDao.html</url>
+    <content type="text"><![CDATA[记录了 2015 夏在王道学习一个月的一些成果, 和一些后续补上的工作成果。 当时只在那学习了一个月, 因为身体原因没有坚持下来, 甚为遗憾！ 王道训练营与市面上的那些培训班不同, 我在那学到的最宝贵的东西是: 如何自学！ 自学的能力才是你在今后工作中最重要的能力! Read More »]]></content>
+      <categories>
+        <category>项目</category>
+        <category>培训</category>
+      </categories>
+      <tags>
+        <tag>王道</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Environment-Init]]></title>
+    <url>%2Frepo%2FEnvironment-Init.html</url>
+    <content type="text"><![CDATA[各种开发环境的搭建 Read More »]]></content>
+      <categories>
+        <category>项目</category>
+        <category>环境搭建</category>
+      </categories>
+      <tags>
+        <tag>环境搭建</tag>
+      </tags>
+  </entry>
+</search>
