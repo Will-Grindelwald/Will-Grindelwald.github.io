@@ -50,7 +50,7 @@ Git 是 **分布式** 的版本控制系统, 客户端不只是提取最新版�
 
 最后会介绍一个集大成者: 一套 [开发流程(分支策略和发布管理) 模型](#2.6-Forking-Workflow-Forking-工作流), 先看图眼馋一下。
 
-![](../images/Git_Flow_and_Git_Command/0.jpg "一个成功的 Git 分支模型")
+![](../images/Git-Flow-And-Git-Command/0.jpg "一个成功的 Git 分支模型")
 
 ### 2.1 Basic Workflow (基本工作流)
 
@@ -64,7 +64,7 @@ Git 是 **分布式** 的版本控制系统, 客户端不只是提取最新版�
 
 #### (1) 如何工作
 
-![](../images/Git_Flow_and_Git_Command/1.jpg "Centralized Workflow")
+![](../images/Git-Flow-And-Git-Command/1.jpg "Centralized Workflow")
 
 1. 从远程仓库 (central repository) 克隆工程到本地仓库 (local repository) — `git clone`
 1. 在本地仓库编辑文件和提交更新 — `git add` 和 `git commit`
@@ -73,7 +73,7 @@ Git 是 **分布式** 的版本控制系统, 客户端不只是提取最新版�
 
 #### (2) 管理冲突
 
-![](../images/Git_Flow_and_Git_Command/2.jpg "File Conflicts")
+![](../images/Git-Flow-And-Git-Command/2.jpg "File Conflicts")
 
 * **何时发生冲突:** 在开发者发布它们功能之前, 他们需要 fetch 远程仓库已更新的 commit 到本地仓库和 rebase 到已更新的 commit 的上面。有时, 本地提交与远程提交会发生冲突, git 会暂停 rebase 过程来让你手动解决冲突。
 * **如何解决冲突:** 你可以使用 `git status` 和 `git add` 来手动解决合并时冲突。
@@ -84,7 +84,7 @@ Feature Branch Workflow 的主要思想就是在 **开发每个功能** 时都�
 
 #### (1) 如何工作
 
-![](../images/Git_Flow_and_Git_Command/3.jpg "Feature Branch Workflow")
+![](../images/Git-Flow-And-Git-Command/3.jpg "Feature Branch Workflow")
 
 1. 仍然使用远程仓库 (central repository) 和主分支 (master branch) 记录官方工程的历史
 1. 开发者每次开发新功能时都创建一个新分支 — `git checkout -b`
@@ -96,7 +96,7 @@ Feature Branch Workflow 的主要思想就是在 **开发每个功能** 时都�
 
 **Pull request** 是一种当开发者完成一个新功能后向其他团队成员发送通知的机制。它的使用过程如下:
 
-![](../images/Git_Flow_and_Git_Command/4.jpg "Pull request on Github")
+![](../images/Git-Flow-And-Git-Command/4.jpg "Pull request on Github")
 
 * 开发者可以通过 Github 或 Bitbucket 发送 pull request
 * 其他的团队成员审查、讨论和修改代码
@@ -108,14 +108,14 @@ Feature Branch Workflow 是一种非常灵活的开发方式。对于一些规�
 
 #### (1) Historical Branches
 
-![](../images/Git_Flow_and_Git_Command/5.jpg "Historical Branches")
+![](../images/Git-Flow-And-Git-Command/5.jpg "Historical Branches")
 
 * **master 分支** 保存官方发布历史
 * **develop 分支** 衍生出各个 feature 分支
 
 #### (2) Feature Branches
 
-![](../images/Git_Flow_and_Git_Command/6.jpg "Feature Branches")
+![](../images/Git-Flow-And-Git-Command/6.jpg "Feature Branches")
 
 * **feature 分支** 使用 develop 分支作为它们的父类分支
 * 当其中一个 feature 分支完成后, 它会合并会 develop 分支
@@ -123,7 +123,7 @@ Feature Branch Workflow 是一种非常灵活的开发方式。对于一些规�
 
 #### (3) Release Branches
 
-![](../images/Git_Flow_and_Git_Command/7.jpg "Release Branches")
+![](../images/Git-Flow-And-Git-Command/7.jpg "Release Branches")
 
 * **release 分支** 主要用来清理释放、测试和更新文档
 * 一旦 develop 分支获得足够的功能来发布时, 你可以从 develop 衍生出一个 release 分支
@@ -132,7 +132,7 @@ Feature Branch Workflow 是一种非常灵活的开发方式。对于一些规�
 
 #### (4) Maintenance Branches
 
-![](../images/Git_Flow_and_Git_Command/8.jpg "Maintenance Branches")
+![](../images/Git-Flow-And-Git-Command/8.jpg "Maintenance Branches")
 
 * **maintenance 分支** 用来快速给已发布产品修复 bug 或微调功能
 * 它从 master 分支直接衍生出来
@@ -150,13 +150,13 @@ Feature Branch Workflow 是一种非常灵活的开发方式。对于一些规�
 
 Forking Workflow 与以上讨论的工作流很不同, 一个很重要的 **区别** 就是它不只是多个开发共享一个远程仓库 (central repository), 而是每个开发者都拥有一个独立的服务端仓库。也就是说每个 contributor 都有两个仓库: 自己的私有的远程仓库和官方的共享的远程仓库。
 
-![](../images/Git_Flow_and_Git_Command/9.jpg "Forking Workflow")
+![](../images/Git-Flow-And-Git-Command/9.jpg "Forking Workflow")
 
 Forking Workflow 这种工作流主要好处就是每个开发者都拥有自己的远程仓库, 可以将提交的 commits 推送到自己的远程仓库, 但只有工程维护者才有权限 push 提交的 commits 到官方的仓库, 其他开发者在没有授权的情况下不能 push。Github 很多 **开源项目** 都是采用 Forking Workflow 工作流。
 
 #### (1) 如何工作
 
-![](../images/Git_Flow_and_Git_Command/10.jpg "Fork official repository")
+![](../images/Git-Flow-And-Git-Command/10.jpg "Fork official repository")
 
 1. 在服务器上有一个官方公共的仓库
 1. 开发者 fork 官方仓库来创建它的拷贝, 然后存放在服务器上
@@ -171,7 +171,7 @@ Forking Workflow 这种工作流主要好处就是每个开发者都拥有自己
 
 先上图。
 
-![](../images/Git_Flow_and_Git_Command/0.jpg "一个成功的 Git 分支模型")
+![](../images/Git-Flow-And-Git-Command/0.jpg "一个成功的 Git 分支模型")
 
 本节全部来自这篇文章: [一个成功的 Git 分支模型](http://blog.jobbole.com/81196), 原文与译文都不错, 我就不转载了, 直接去看吧。
 
@@ -179,7 +179,7 @@ Forking Workflow 这种工作流主要好处就是每个开发者都拥有自己
 
 一般来说, 日常使用只要记住下图 6 个命令, 就可以了。但是熟练使用, 恐怕要记住 60～100 个命令。
 
-![](../images/Git_Flow_and_Git_Command/11.png)
+![](../images/Git-Flow-And-Git-Command/11.png)
 
 下面是一份常用 Git 命令清单。几个专用名词的译名如下。
 
